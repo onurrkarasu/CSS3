@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Border Sizing | Border Model</title>
+
+    <style>
+    /* 
+        Box Sizing : 
+                content-box | border-box
+     */
+    
+    #box1{
+        box-sizing: content-box;
+        width: 300px;
+        height: 100px;
+        background: green;
+        margin-bottom: 10px;
+        padding: 10px;
+        border:10px solid black;
+    }
+    #box2{
+        box-sizing: border-box;
+        width: 300px;
+        height: 100px;
+        background: gold;
+        padding: 10px;
+        border:10px solid black;
+    }
+
+    </style>
+</head>
+<body>
+    <!-- 
+        box sizing: content-box | border-box 
+    -->
+
+    <div id="box1">
+        300px + (10px*2) + (10px*2) => 340px
+    </div>
+    <div id="box2">
+        260 px + (10px*2) + (10px*2) 
+    </div>
+
+    
+
+    
+</body>
+</html>

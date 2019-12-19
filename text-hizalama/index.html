@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Text Hizalama</title>
+
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            width: 700px;
+            margin: 30px auto;
+        }
+
+        p#first {
+            text-align: right;
+        }
+
+        p#second {
+            text-align: center;
+        }
+
+        p#third {
+            text-align: left;
+            padding: 10px;
+            border: 1px solid rgb(0, 0, 0, .4);
+
+            column-count: 3;
+            -webkit-column-count: 3;
+            /* opera chrome safari */
+            -moz-column-count: 3;
+            /* mozilla */
+            column-rule: 1px solid rgb(0, 0, 0, .4);
+            -webkit-column-rule: 1px solid rgb(0, 0, 0, .4);
+        }
+
+        p#forth {
+            text-align: justify;
+        }
+
+        div {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing.</h2>
+
+    <p id="first">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis delectus sit provident voluptatem ea ullam
+        voluptas eligendi enim numquam, ducimus voluptate non illum laudantium hic. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Reiciendis debitis <span class="italic">accusamus</span>, dignissimos placeat
+        atque cupiditate magni repellat
+        natus esse vel, quibusdam aperiam earum <span class="bold"><a href="#" class="link">Recusanssa</a></span>
+        doloribus.
+    </p>
+    <p id="second">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis delectus sit provident voluptatem ea ullam
+        voluptas eligendi enim numquam, ducimus voluptate non illum laudantium hic. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Reiciendis debitis <span class="italic">accusamus</span>, dignissimos placeat
+        atque cupiditate magni repellat
+        natus esse vel, quibusdam aperiam earum <span class="bold"><a href="#" class="link">Recusanssa</a></span>
+        doloribus.
+    </p>
+    <p id="third">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis delectus sit provident voluptatem ea ullam
+        voluptas eligendi enim numquam, ducimus voluptate non illum laudantium hic. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Reiciendis debitis <span class="italic">accusamus</span>, dignissimos placeat
+        atque cupiditate magni repellat
+        natus esse vel, quibusdam aperiam earum <span class="bold"><a href="#" class="link">Recusanssa</a></span>
+        doloribus.
+    </p>
+
+    <p id="forth">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis delectus sit provident voluptatem ea ullam
+        voluptas eligendi enim numquam, ducimus voluptate non illum laudantium hic. Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit. Reiciendis debitis <span class="italic">accusamus</span>, dignissimos placeat
+        atque cupiditate magni repellat
+        natus esse vel, quibusdam aperiam earum <span class="bold"><a href="#" class="link">Recusanssa</a></span>
+        doloribus.
+    </p>
+    <div>
+        <a href="">Link 1 </a>
+        <a href="">Link 2 </a>
+        <a href="">Link 3 </a>
+    </div>
+
+
+</body>
+
+</html>

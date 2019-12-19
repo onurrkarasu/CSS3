@@ -1,0 +1,29 @@
+#container{
+    width:1140px;
+}
+
+#blog-post-container{
+    width: 75%;
+    float: left;
+}
+
+#other-post{
+    width: 25%;
+    float: left;
+}
+
+#author-box{
+    border:1px solid yellow;
+}
+.tags{
+    margin:0;
+    padding: 0;
+}
+.tags li{
+    display: inline;
+    list-style: none;
+    margin-right: 5px;
+}
+.tags li a{
+    text-decoration: none;
+}
